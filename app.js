@@ -1,7 +1,7 @@
 // Game values
 let min = 1
 let max = 10
-let winningNum = 2
+let winningNum = getWInningNum()
 let guessesLeft = 3
 
 // UI Elements
@@ -69,3 +69,5 @@ function setMessage(msg, color) {
 	message.style.color = color
 	message.textContent = msg
 }
+
+function getRandomNum(min, max) {}
